@@ -139,6 +139,6 @@ WIP!
 ## Authors
 
 [@madisonlowe](https://github.com/madisonlowe)
-[@Udecunup5](https://github.com/Udecunup5)
+[@nafisoaden97](https://github.com/nafisoaden97)
 [@samsonhumber](https://github.com/samsonhumber)
 [@Ismailali99](https://github.com/Ismailali99)
