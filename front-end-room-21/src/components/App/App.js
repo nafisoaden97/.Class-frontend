@@ -35,7 +35,7 @@ function App() {
     async function fetchRegionData() {
       console.log("GET request from Region dropdown.");
       try {
-        const url = "http://localhost:9000/profiles/?region=" + dropdownRegion;
+        const url = "http://localhost:5432/profiles/?region=" + dropdownRegion;
         console.log(url);
         const response = await fetch(url);
         const responseJSON = await response.json();
@@ -52,10 +52,10 @@ function App() {
 
   useEffect(() => {
     async function fetchBootcampData() {
-      console.log("GET request from Cohort dropdown.");
+      console.log("GET frequest from Cohort dropdown.");
       try {
         const url =
-          "http://localhost:9000/profiles/?Bootcampnumber=" + dropdownBootcamp;
+          "http://localhost:5432/profiles/?Bootcampnumber=" + dropdownBootcamp;
         console.log(url);
         const response = await fetch(url);
         const responseJSON = await response.json();
@@ -74,7 +74,7 @@ function App() {
     async function fetchNameSearch() {
       console.log("GET request from searchbar entry.");
       try {
-        const url = "http://localhost:9000/profiles/?name=" + searchtext;
+        const url = "http://localhost:5432/profiles/?name=" + searchtext;
         console.log(url);
         const response = await fetch(url);
         const responseJSON = await response.json();
